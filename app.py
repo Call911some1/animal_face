@@ -156,7 +156,9 @@ def main():
         st.write("Объем картинок для train: 13386")
         st.write("Объем картинок для valid: 3347")
 
-        # Здесь графики не отображаются, потому что для лиц они не нужны
+        # Здесь графики для лиц
+        st.image(os.path.join("PR_curve.png"))
+        st.image(os.path.join('confusion_matrix.png'))
 
 # Запуск приложения
 if __name__ == "__main__":
