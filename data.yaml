@@ -1,0 +1,6 @@
+train: /home/andrey/Downloads/face_or_animal/data/zoo_split/train
+val: /home/andrey/Downloads/face_or_animal/data/zoo_split/valid
+test: /home/andrey/Downloads/face_or_animal/data/zoo_split/test
+
+nc: 4  # количество классов
+names: ['buffalo', 'elephant', 'rhino', 'zebra']

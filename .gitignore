@@ -1,0 +1,3 @@
+data/
+notebooks/runs/detect/train/weights/*
+/models/*
