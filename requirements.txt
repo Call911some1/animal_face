@@ -8,3 +8,4 @@ seaborn==0.13.2
 Pillow==10.4.0
 requests==2.31.0
 ultralytics==8.3.16
+py-opencv
