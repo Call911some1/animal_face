@@ -9,13 +9,13 @@ import cv2
 
 # Функция загрузки модели для животных
 def load_animal_model():
-    model_path = "/home/andrey/Downloads/animal_face/notebooks/yolov8_animals.pt"  # Путь к модели для животных
+    model_path = "notebooks/yolov8_animals.pt"  # Путь к модели для животных
     model = YOLO(model_path)  # Загрузка модели YOLOv8
     return model
 
 # Функция загрузки модели для лиц
 def load_face_model():
-    model_path = "/home/andrey/Downloads/animal_face/notebooks/faces/facial_det.pt"  # Путь к модели для лиц
+    model_path = "notebooks/faces/facial_det.pt"  # Путь к модели для лиц
     model = YOLO(model_path)  # Загрузка модели YOLOv8
     return model
 
